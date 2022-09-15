@@ -6,3 +6,32 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    
+}
+
+.first-section img {
+    width: 12%;
+    height: 12%;
+    padding-left: 20px;
+    
+}
+
+.nav-bar {
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
