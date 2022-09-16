@@ -8,7 +8,7 @@ White: #FFF
 */
 
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -27,11 +27,119 @@ a {
 
 .nav-bar {
     display: flex;
+    padding-right: 30px;
+}
+
+a {
+    padding-right: 30px;
 }
 
 nav {
     position: fixed;
+    top: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.second-section{
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+    height: 800px;  
+    margin-top: 90px;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.second-section-title {
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 200px;
+    
+}
+
+
+.second-section-p {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.third-section-title {
+    text-align: center;
+    font-size: 40px;
+    padding-right: 50px;
+}
+
+.third-section h3 {
+    color: #00B172;
+}
+
+.third-section p{
+    font-weight: lighter;
+}
+
+.all-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 20px;  
+}
+
+.box img {
+    width: 120px;
+}
+
+.fourth-section {
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+
+.fourth-section h2 {
+    text-decoration: underline;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 40px;
+    
+}
+
+.spotify-icon {
+    width: 120px;
+    height: 120px;
+    margin-left: -30px; /*not sure how to make the icon to the left without negative numbers */
+    margin-right: 20px;
+    margin-top: 330px;
+}
+
+.spotify-app {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    align-self: center;
+    margin-left: 300px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.second-box {
+    padding-top: 30px;
+    padding-left: 50px;
+
+}
+
+.second-box h3 {
+    font-size: 20px;
+}
+
 
